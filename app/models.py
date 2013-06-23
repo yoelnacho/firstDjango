@@ -12,4 +12,4 @@ class Datos(models.Model):
 		#para pasar solu una vairable:
 		#return self.nombres
 		#si queremos pasar mas de una variable, seria asi:
-		return "%s %s" % (self.nombres, self.apellidos)
+		return "%s %s" % (self.nombres, self.apellido)

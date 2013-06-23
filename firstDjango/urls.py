@@ -5,7 +5,11 @@ admin.autodiscover()
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'firstDjango.views.home', name='home'),
-    # url(r'^firstDjango/', include('firstDjango.foo.urls')),
+	
+	#estariamos llamando al localhost con r'^$'    
+    url(r'^$', 'app.views.index', name='index'),
+    url(r'^home$', 'app.views.home', name='home'),
+    url(r'^listado$', 'app.views.lista', name='listado'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

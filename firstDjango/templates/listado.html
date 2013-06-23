@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>{{title}}</title>
+</head>
+<body>
+	<a href="/" style="float:right">volver</a><br>
+	<ul>
+	{% for dato in datos %}
+
+		<li>
+			<h4>{{dato.nombres}} {{dato.apellido}}</h4>
+			<p><small>Vive en: {{dato.direccion}}</small></p>
+			<a href="#{{dato.numero}}">Leer m&aacute;s</a>
+		</li>
+
+		<!-- si no hay ningun dato con empty mostramos algo -->
+		{% empty %}
+		<li>Actualmente no hay datos</li>
+	
+	{% endfor %}
+	</ul>
+</body>
+</html>
