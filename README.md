@@ -11,4 +11,4 @@ Primera app en django
     levantar el server
     accedieto a localhost:8000/admin
 
-2-	
+2- 
