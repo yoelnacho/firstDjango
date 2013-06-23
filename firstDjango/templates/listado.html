@@ -1,11 +1,8 @@
-<!doctype html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<title>{{title}}</title>
-</head>
-<body>
-	<a href="/" style="float:right">volver</a><br>
+{% extends "base.html" %}
+
+{% block title %}{{datos.nombres}}{% endblock %}
+{% block content %}
+	<a href="/" style="display:block; text-align:center">volver</a>
 	<ul>
 	{% for dato in datos %}
 
@@ -21,5 +18,4 @@
 	
 	{% endfor %}
 	</ul>
-</body>
-</html>
+{% endblock %}

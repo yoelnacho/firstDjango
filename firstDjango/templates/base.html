@@ -1,0 +1,23 @@
+<!doctype html>
+<!--[if lte IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!-->
+<html lang="en" class="no-js"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>{% block title %}{% endblock %}</title>
+
+	{# CSS INCLUDES #}
+    {% block css %}
+    	<link rel="stylesheet" href="http://127.0.0.1:8000/static/css/style.css" />
+    {% endblock css %}
+
+</head>
+<body>
+	<h1 style="text-align:center">Plantillas con Herencias</h1>
+	{% block content %}{% endblock %}
+	{% block footer %}
+	<footer>
+		<h3 style="text-align:center">Aqu&iacute; el footer</h3>
+	</footer>
+	{% endblock %}
+</body>
+</html>
