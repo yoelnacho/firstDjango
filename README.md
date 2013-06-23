@@ -10,3 +10,5 @@ Primera app en django
     sincronización db
     levantar el server
     accedieto a localhost:8000/admin
+
+2-	
