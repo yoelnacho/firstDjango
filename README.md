@@ -1,8 +1,14 @@
 Primera app en django
 =====================
 
+####(a) install python and (b) django
+
+* a -Descargar python for win.
+    (configurar entornos de variables para que funcione: http://youtu.be/ciYoJPw9ORg)
+* b -
+
 ### 1-  Primera etapa (v.0.1):
-    * start up proyecto (firstDjango)
+    * start up proyect (firstDjango)
     * configuración db (sqlite3)
     * configuración url (admin)
     * crear aplicación (app)
@@ -17,3 +23,10 @@ Primera app en django
 	* agregar datos por admin
 	* pasar datos desde las vistas mediante el models
 	* reenderizar los datos en los templates.
+
+### 3-  Segunta etapa (v.0.3):
+    * instalar bundle
+    * tarea para compilar y minificar styl
+
+
+### DATA: http://django.es/docs/intro/tutorial01/
